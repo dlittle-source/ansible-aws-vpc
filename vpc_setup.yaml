@@ -75,7 +75,7 @@
         cidr: "{{ PrivSub2Cidr }}"
         resource_tags:
           Name: vprofile-privsub2
-        register: privsub2_out
+      register: privsub2_out
     
     - name: Create Private Subnet 3 in Zone3
       ec2_vpc_subnet:
