@@ -25,7 +25,7 @@
         name: Bastion-SG
         description: Security group for bastion host
         region: "{{ region }}"
-        vpc_id: "{{ vpc_id }}"
+        vpc_id: "{{ vpcid }}"
         rules:
           - proto: tcp
             from_port: 22
