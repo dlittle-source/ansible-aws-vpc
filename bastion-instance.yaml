@@ -1,7 +1,7 @@
 ---
 - name: Setup Vprofile Bastion Host 
   hosts: localhost
-  connect: local
+  connection: local
   gather_facts: no
   tasks:
     - name: Import VPC setup Variable
