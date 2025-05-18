@@ -63,6 +63,6 @@
         vpc_id: "{{ vpcid }}"
         purge_rules: no
         rules:
-         - proto: all
-           group_id: "{{ vproStackSG_out.group_id }}"
+          - proto: all
+            group_id: "{{ vproStackSG_out.group_id }}"
     
