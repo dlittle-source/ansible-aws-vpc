@@ -1,4 +1,4 @@
-![Alt text](Docker_Dynamic_Website.png)
+![Alt text](Ansible_VPC_Infrutucture.png))
 
 **Project: Ansible Automation for AWS VPC Deployment**
 
