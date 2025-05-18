@@ -44,15 +44,15 @@
         vpc_id: "{{ vpcid }}"
         purge_rules: no
         rules:
-         - proto: tcp
-           from_port: 80
-           to_port: 80
-           group_ip: "{{ vproELBSG_out.group_id }}"
+          - proto: tcp
+            from_port: 80
+            to_port: 80
+            group_ip: "{{ vproELBSG_out.group_id }}"
 
-         - proto: tcp
-           from_port: 22
-           to_port: 22
-           group_id": "{{BastionSGid}}"
+          - proto: tcp
+            from_port: 22
+            to_port: 22
+            group_id": "{{BastionSGid}}"
       register: vproStackSG_out
 
     - name: Update Security Group with its own sg
