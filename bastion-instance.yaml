@@ -24,7 +24,7 @@
       when: key_out.changed
     
     - name: Create Security Group for bastion host
-      amazon.aws.ec2_security_group:
+      amazon.aws.ec2_group:
         name: Bastion-SG
         description: Security group for bastion host
         region: "{{ region }}"
