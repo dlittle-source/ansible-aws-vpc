@@ -57,7 +57,7 @@
       register: bastion_out 
 
     - name: Insert/Update "Bastion Host" in vars/vpc-output_vars
-      blockfile:
+      blockinfile:
         path: vars/vpc-output_vars
         backup: yes
         block: |
