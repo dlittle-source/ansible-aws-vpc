@@ -9,7 +9,7 @@ In this project, I automated the deployment of an AWS Virtual Private Cloud (VPC
 
 1. **Virtual Private Cloud (VPC):**
 
-   * Provisioned a custom VPC with a total of **4 subnets** — 2 **public** and 2 **private**, distributed across **two Availability Zones** to ensure high availability and fault tolerance.
+   * Provisioned a custom VPC with a total of **6 subnets** — 3 **public** and 3 **private**, distributed across **two Availability Zones** to ensure high availability and fault tolerance.
 
 2. **Internet Gateway:**
 
