@@ -3,7 +3,7 @@
 **Project: Ansible Automation for AWS VPC Deployment**
 
 **Overview:**
-In this project, I automated the deployment of an AWS Virtual Private Cloud (VPC) using **Ansible** as the configuration management tool. The solution was built with **modularity and flexibility** in mind, leveraging **Ansible variables** for customization and **reusable modules** to streamline provisioning across environments.
+In this project, I automated the deployment of an AWS Virtual Private Cloud (VPC) using **Ansible** as the configuration management tool. The solution was built with **modularity and flexibility** in mind, leveraging **Ansible variables** for customization and **reusable modules** to streamline provisioning across environments. This project was structured into three phases. Phase one focused on creating the VPC and associated services and was completed on the main branch. For phase two, I created a new branch to add additional resources and consolidate multiple playbooks into a single YAML file.
 
 **Deployment Steps:**
 
