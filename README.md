@@ -1,5 +1,7 @@
 ![Alt text](Ansible_VPC_Infrutucture.png)
 
+![Alt text](Ansible_Phase2.png)
+
 **Project: Ansible Automation for AWS VPC Deployment**
 
 **Overview:**
